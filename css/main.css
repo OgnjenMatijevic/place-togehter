@@ -145,7 +145,7 @@ p {
 .hero .title-wrap {
   color: #fff;
   text-align: center;
-  text-shadow: 2px 2px 3px #5f5e5e;
+  text-shadow: 1px 2px 3px #707070;
 }
 
 .hero .title {
@@ -164,6 +164,8 @@ p {
   grid-template-columns: repeat(4, 1fr);
   max-width: 1154px;
   box-shadow: 0px 13px 22px -20px #503020;
+  background: #fff;
+  border-radius: 8px 50px 50px 8px;
 }
 
 .hero .search-bar .search-field {
@@ -210,7 +212,7 @@ p {
   outline: none;
   border: none;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 25px 55px;
   border-radius: 0px 8px 8px 0;
   cursor: pointer;
@@ -494,6 +496,7 @@ p {
 
   .hero .title-search__wrap .search-bar {
     box-shadow: unset;
+    background: unset;
   }
 
   .hero .search-bar .search-field {
@@ -518,6 +521,11 @@ p {
 
   .navbar-expand-sm .navbar-nav .nav-link:hover {
     border: none;
+  }
+
+  
+  .navbar .navbar-brand img {
+    max-width: 43px;
   }
 }
 
@@ -568,6 +576,7 @@ p {
     box-shadow: 0px 13px 22px -20px #503020;
     font-size: 11px;
     width: 43%;
+    font-weight: 500;
   }
 
   .hero .title-search__wrap .search-field {
@@ -622,7 +631,7 @@ p {
 .property-agent .my-card .orange-bar {
   background: #FE8369;
   height: 2px;
-  width: 40px;
+  width: 29px;
   margin-top: 8px;
 }
 
@@ -775,6 +784,10 @@ p {
     font-size: 38px;
     font-weight: 600;
   }
+
+  .property-agent .my-card .orange-bar {
+    width: 40px;
+  }
 }
 
 
@@ -880,11 +893,32 @@ p {
   .property-agent .my-card .about {
     font-size: 14px;
   }
+
+  .property-agent .cards-wrap .my-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .property-agent .my-card .my-card__body {
+    max-width: 299px;
+    width: 100%;
+  }
+
+  .property-agent .my-card .my-card__body {
+    max-width: 231px;
+  }
 }
 
 @media (max-width: 370px) {
   .property-agent .section-text__wrap .orange-bar__long {
     top: 54px;
+  }
+
+  .property-agent .my-card .orange-bar {
+    width: 30px;
+    margin-right: 5px;
   }
 }
 
@@ -1403,6 +1437,11 @@ p {
 
   .text-cards__wrap .wrap-title {
     font-size: 27px;
+  }
+
+  .cards-grid .my-card {
+    max-width: unset;
+    width: 100%;
   }
 }
 

@@ -523,7 +523,7 @@ p {
     border: none;
   }
 
-  
+
   .navbar .navbar-brand img {
     max-width: 43px;
   }
@@ -561,11 +561,12 @@ p {
 
   .hero .search-bar .label {
     font-size: 11px;
-    color: #8b5940;
+    color: #333;
+    font-weight: 500;
   }
 
   .hero .title-search__wrap .search-field {
-    height: 47px;
+    height: 56px;
   }
 
   .hero .title-search__wrap .search-bar {
@@ -581,6 +582,14 @@ p {
 
   .hero .title-search__wrap .search-field {
     box-shadow: 0px 5px 22px -20px #503020;
+  }
+
+  .search__wrap .search-field {
+    height: 56px;
+  }
+
+  .hero .search-bar .search-field .label {
+    padding-bottom: 5px;
   }
 }
 
@@ -1030,7 +1039,7 @@ p {
 }
 
 .nav-grid__wrap .grid-nav__wrap a {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 18px;
   font-family: "Raleway";
   padding-left: 5px;

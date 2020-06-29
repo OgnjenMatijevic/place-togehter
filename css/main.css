@@ -1452,6 +1452,7 @@ p {
   .cards-grid .my-card {
     max-width: unset;
     width: 100%;
+    border: 1px solid #f56f55;
   }
 }
 
